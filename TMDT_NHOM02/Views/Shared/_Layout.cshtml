@@ -31,13 +31,12 @@
     <link rel="stylesheet" href="~/Content/assets/css/responsive.css" type="text/css">
 
     <!-- Color CSS Styles  -->
-    <link rel="stylesheet" type="text/css" href="Content/assets/css/colors/red.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/css/colors/red.css" media="screen" />
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
 
 
-    <div class="container body-content">
         <!-- Header Section Start -->
         <div class="header">
             <!-- Start intro section -->
@@ -61,78 +60,11 @@
                                 <ul class="nav navbar-nav">
                                     <li>
                                         <a class="active" href="index.html">
-                                            Home <i class="fa fa-angle-down"></i>
+                                            Home 
                                         </a>
-                                        <ul class="dropdown">
-                                            <li>
-                                                <a class="active" href="index.html">
-                                                    Home 1
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-02.html">
-                                                    Home 2
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-03.html">
-                                                    Home 3
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-04.html">
-                                                    Home 4
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        
                                     </li>
-                                    <li>
-                                        <a href="about.html">
-                                            Pages <i class="fa fa-angle-down"></i>
-                                        </a>
-                                        <ul class="dropdown">
-                                            <li>
-                                                <a href="about.html">
-                                                    About
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="job-page.html">
-                                                    Job Page
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="job-details.html">
-                                                    Job Details
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="resume.html">
-                                                    Resume Page
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="privacy-policy.html">
-                                                    Privacy Policy
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="faq.html">
-                                                    FAQ
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="pricing.html">
-                                                    Pricing Tables
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">
-                                                    Contact
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                     <li>
                                         <a href="#">
                                             Candidates <i class="fa fa-angle-down"></i>
@@ -280,41 +212,7 @@
                         <!-- Mobile Menu End -->
                     </nav>
 
-                    <!-- Off Canvas Navigation -->
-                    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-                        <!--- Off Canvas Side Menu -->
-                        <div class="close" data-toggle="offcanvas" data-target=".navmenu">
-                            <i class="ti-close"></i>
-                        </div>
-                        <h3 class="title-menu">All Pages</h3>
-                        <ul class="nav navmenu-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index-02.html">Home Page 2</a></li>
-                            <li><a href="index-03.html">Home Page 3</a></li>
-                            <li><a href="index-04.html">Home Page 4</a></li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="job-page.html">Job Page</a></li>
-                            <li><a href="job-details.html">Job Details</a></li>
-                            <li><a href="resume.html">Resume Page</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="pricing.html">Pricing Tables</a></li>
-                            <li><a href="browse-jobs.html">Browse Jobs</a></li>
-                            <li><a href="browse-categories.html">Browse Categories</a></li>
-                            <li><a href="add-resume.html">Add Resume</a></li>
-                            <li><a href="manage-resumes.html">Manage Resumes</a></li>
-                            <li><a href="job-alerts.html">Job Alerts</a></li>
-                            <li><a href="post-job.html">Add Job</a></li>
-                            <li><a href="manage-jobs.html">Manage Jobs</a></li>
-                            <li><a href="manage-applications.html">Manage Applications</a></li>
-                            <li><a href="browse-resumes.html">Browse Resumes</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="faq.html">Faq</a></li>
-                            <li><a href="my-account.html">Login</a></li>
-                        </ul><!--- End Menu -->
-                    </div> <!--- End Off Canvas Side Menu -->
-                    <div class="tbtn wow pulse" id="menu" data-wow-iteration="infinite" data-wow-duration="500ms" data-toggle="offcanvas" data-target=".navmenu">
-                        <p><i class="ti-files"></i> All Pages</p>
-                    </div>
+                    
                 </div>
                 <!-- Header Section End -->
 
@@ -326,7 +224,7 @@
                                 <div class="content">
                                     <form method="" action="">
                                         <div class="row">
-                                            <div class="col-md-4 col-sm-6">
+                                            <div class="col-md-7 col-sm-6">
                                                 <div class="form-group">
                                                     <input class="form-control" type="text" placeholder="job title / keywords / company name">
                                                     <i class="ti-time"></i>
@@ -334,27 +232,22 @@
                                             </div>
                                             <div class="col-md-4 col-sm-6">
                                                 <div class="form-group">
-                                                    <input class="form-control" type="email" placeholder="city / province / zip code">
-                                                    <i class="ti-location-pin"></i>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-6">
-                                                <div class="search-category-container">
                                                     <label class="styled-select">
                                                         <select class="dropdown-product selectpicker">
-                                                            <option>All Categories</option>
-                                                            <option>Finance</option>
-                                                            <option>IT & Engineering</option>
-                                                            <option>Education/Training</option>
-                                                            <option>Art/Design</option>
-                                                            <option>Sale/Markting</option>
-                                                            <option>Healthcare</option>
-                                                            <option>Science</option>
-                                                            <option>Food Services</option>
+                                                            <option>Thành Phố</option>
+                                                            <option>Hồ Chí Minh</option>
+                                                            <option>Hà Nội</option>
+                                                            <option>Đà Nẵng</option>
+                                                            <option>Cần Thơ</option>
+                                                       
                                                         </select>
                                                     </label>
+                                                    <i class="ti-location-pin"></i>
+
                                                 </div>
+                                           
                                             </div>
+                                            
                                             <div class="col-md-1 col-sm-6">
                                                 <button type="button" class="btn btn-search-icon"><i class="ti-search"></i></button>
                                             </div>
@@ -490,9 +383,7 @@
         <script type="text/javascript" src="~/Content/assets/js/jquery.themepunch.revolution.min.js"></script>
         <script type="text/javascript" src="~/Content/assets/js/jquery.themepunch.tools.min.js"></script>
 
-    </div>
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
